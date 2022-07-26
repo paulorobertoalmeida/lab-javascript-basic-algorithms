@@ -29,5 +29,12 @@ const capitalNames = (name1, name2) => {
 console.log(capitalNames(hacker1, hacker2));
 // Iteration 2: Conditionals
 
+const reversedArr = (name1, name2) => {
+    let reversed1 = name1.split("").reverse().join("");
+    let reversed2 = name2.split("").reverse().join("");
+    return `this are the name you typed in reverse order ${reversed1} and ${reversed2}`;
+}
+
+console.log(reversedArr(hacker1,hacker2));
 
 // Iteration 3: Loops
